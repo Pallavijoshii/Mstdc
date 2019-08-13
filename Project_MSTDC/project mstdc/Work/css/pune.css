@@ -1,0 +1,208 @@
+.main-container{
+    background-color: aliceblue;
+    height: auto;
+}
+.header-navbar{
+    margin-bottom: -50px;
+    display: flex;
+    height: 130px;
+}
+#site-logo{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    background-color: #F1F1F2;
+}
+
+
+    
+
+.list{
+    font-family: 'Concert One', cursive;
+    height: 130px;
+    width: 1209px;
+    background-color: aliceblue;
+    padding: 20px;
+    list-style-type: none;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.list li{
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+}
+.row1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rc{
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.6s;
+    cursor:pointer;
+    text-align: justify;
+    border: 2px solid black;
+    width: 304px;
+    height: 304px;
+    background-color: #F1F1F2;
+    padding-bottom: 60px;
+}
+
+.text-block {
+    width: 300px;
+    height: 70px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    margin-top: -80px;
+    text-align: center;
+    color: white;
+}
+.city{
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+     font-family: 'Permanent Marker', cursive;
+      padding-top: -100px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.mc{
+    width: 300px;
+    height:50px;
+    margin-top: -290px;
+    text-align: justify;
+}
+
+.row2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.subcontent{
+    background-color: aliceblue;
+}
+.ct{
+    color: black;
+    font-size: 15px;
+    padding-top: -35px;
+}
+img{
+    
+     opacity: 0.8;
+    filter: alpha(opacity=50);
+    width: 100%;
+    height:100%;
+}
+img:hover{
+    opacity:1.0;
+    filter: alpha(opacity=100);
+    color: white;
+
+}
+.site-logo{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    background-color: aliceblue;
+    height: 130px;
+}
+.footer{
+    display: flex;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.6s;
+    font-family: 'Concert One', cursive;
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 5px;
+    margin-top:50px;
+    margin-left: 10px;
+    margin-right: 3px;
+    height: 150px;
+
+}
+.fs-1{
+    align-content: center;
+    width: 500px;
+    font-size: 20px;
+
+}
+.fs-1 li{
+    list-style-type: none;
+    
+}
+.fs-1 li a{
+    text-decoration: none;
+}
+.list{
+    
+    height: 130px;
+    width: 100%;
+    
+    padding: 5px;
+    list-style-type: none;
+    margin-left: -1px;
+     padding-left: 15px;
+    padding-top: 40px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    background-color: aliceblue;
+   
+.list li{
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+}
+.list li a:hover{
+    background-color: #F1F1F2;
+    text-decoration: none;
+}
+.search-area{
+    border-radius: 5px;
+}
+
+.submit-button{
+    border-radius: 5px;
+    color: inherit;   
+}
+.submit-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.submit-button{
+    background-color: #ffffff; 
+    padding: 5px;
+}
+.submit-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.submit-button:hover span {
+  padding-right: 25px;
+}
+
+.submit-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
